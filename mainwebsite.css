@@ -1,0 +1,51 @@
+body{
+    font-size: 25px;
+}
+h1 {color:rgb(211, 19, 19);
+font-size: 4em ;
+}
+h2, h3 {color: black;}
+
+h2{font-size: 3em;
+
+}
+
+h3{font-size: 2.5em;
+
+}
+
+p {color:yellow}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.nav-item{
+    display:flex;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    padding: 25px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 75px;
+    width: 150px;
+    justify-content: center;
+}
+
+
+*{background-color: rgb(29, 199, 29);}
+
+.slightlybig {font-size: 40px;}
+
+#para3 {font-size: 25px;}
+#heading3 {font-size: 60px;}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    width: 50%;
+}
